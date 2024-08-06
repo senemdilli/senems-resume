@@ -1,0 +1,80 @@
+.wrapper {
+  padding-bottom: 2rem;
+  display: flex;
+  position: relative;
+}
+
+.w-bg {
+  justify-content: center;
+  align-items: center;
+  width: 2.5rem;
+  display: flex;
+  margin-top: 2.5rem;
+  bottom: 0.625rem;
+  top: 0.625rem;
+  left: 0;
+  right: 0;
+  position: absolute;
+  display: grid;
+}
+
+.w-content {
+  padding-left: 1rem;
+}
+  
+.w-line {
+  border-color: rgb(229 231 235/var(--tw-border-opacity));
+  border-left-width: 2px;
+  width: 1px;
+  height: 100%;
+}
+
+.w-title {
+  font-weight: 700;
+  margin: 0px 0px 5px;
+  text-align: left;
+}
+
+.w-firm {
+  padding: 30px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.w-desc {
+  margin-top: .5rem;
+  font-size: .875rem;
+  line-height: 1.25rem;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.w-year {
+  margin: 0px;
+  font-size: 0.85rem;
+  font-style: italic;
+  text-align: left;
+}
+  
+.w-emoji {
+  vertical-align: middle;
+  justify-content: center;
+  background-color: rgb(243 244 246/var(--tw-bg-opacity));
+  border-radius: 9999px;
+  align-items: center;
+  flex-shrink: 0;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  z-index: 0;
+}
+
+.text-slate-500 {
+  --tw-text-opacity: 1;
+  color: rgb(100 116 139 / var(--tw-text-opacity));
+}
+
+.selection\:bg-teal-300 ::selection {
+  --tw-bg-opacity: 1;
+  background-color: rgb(94 234 212 / var(--tw-bg-opacity));
+}

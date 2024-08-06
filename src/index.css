@@ -1,13 +1,72 @@
+:root {
+  --black: #000000;
+  --background: #ffffff;
+  --red: #BF1C17;
+  --auburn: #A52422;
+  --raisin: #2D2D34;
+  --body-font: "Quicksand", sans-serif;
+  --second-font: "Inter", sans-serif;
+  --innerVh: 9.45px;
+  --left-right-margin: 240px;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: var(--body-font);
+  background-color: var(--background);
+  color: var(--black);
+  font-size: var(--fs-18);
+  line-height: 1.56; 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+img {
+  border-radius: 15%;
+}
+
+.home .intro-wrapper {
+  height: calc(var(--innerVh, 1vh)* 100);
+  justify-content: center;
+  margin: 0 var(--left-right-margin);
+}
+
+h1 {  
+  font-size: 2.5rem;
+  text-align: left;
+  margin: 1em 0em 0em;
+}
+
+h2 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  letter-spacing: -.025em;
+  --tw-text-opacity: 1;
+  text-align: left;
+  font-family: var(--second-font);
+}
+
+p {
+  text-align: left;
+  margin-top: 0;
+}
+
+.home .intro-wrapper .intro-text {
+  position: relative;
+  text-align: center;
+}
+
+.home .intro-wrapper .intro-text .intro-name {
+  font-family: var(--second-font);
+  letter-spacing: .05rem;
+  font-weight: 800;
+  color: var(--auburn);
+  /* -webkit-text-stroke: 2px var(--red); */
+}
+
+.page-change {
+  text-align: left;
+  padding: 0em 0em 2em;
 }
