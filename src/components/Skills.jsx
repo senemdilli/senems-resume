@@ -1,11 +1,12 @@
 import '../css/Skills.css'
+import '../css/animation.css'
 
 const Skills = ({skill}) => {
     
     return(
         <ul>
             <li>
-                <a>{skill}</a>
+                <a className='fade-in-down-animation'>{skill}</a>
             </li>
         </ul>
     );

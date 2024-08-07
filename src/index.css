@@ -17,6 +17,7 @@ body {
   color: var(--black);
   font-size: var(--fs-18);
   line-height: 1.56; 
+  overflow: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -51,6 +52,16 @@ h2 {
 p {
   text-align: left;
   margin-top: 0;
+}
+
+.text-shadow {
+  text-shadow: rgba(191, 28, 23, 0.2) 0 -15px 18px, 
+             rgba(191, 28, 23, 0.15) 0 1px 2px, 
+             rgba(191, 28, 23, 0.15) 0 2px 4px, 
+             rgba(191, 28, 23, 0.15) 0 4px 8px, 
+             rgba(191, 28, 23, 0.15) 0 8px 16px, 
+             rgba(191, 28, 23, 0.15) 0 16px 32px;
+
 }
 
 .home .intro-wrapper .intro-text {

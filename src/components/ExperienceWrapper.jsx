@@ -1,4 +1,5 @@
 import ExperienceBlock from "./ExperienceBlock";
+import '../css/animation.css'
 
 const ExperienceWrapper = () => {
     const componentsData = [

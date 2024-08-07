@@ -5,6 +5,7 @@ import PageButton from './components/PageButton';
 import Page1 from './components/Page1'
 import Page2 from './components/Page2'
 import { useState } from 'react';
+import './css/animation.css'
 
 function App() {
   const [page, setPage] = useState(3);
@@ -15,7 +16,7 @@ function App() {
         <div className='home'>
         <div className='intro-wrapper'>
           <div className='intro-text'>
-            <h1 className='intro-name'>Senem Dilli</h1>
+            <h1 className='intro-name text-shadow'>Senem Dilli</h1>
             <h2>Frontend Developer</h2>
             <p>I build to learn React!</p>
         <div className='page-change'>

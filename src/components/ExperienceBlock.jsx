@@ -1,10 +1,11 @@
 import '../css/Wrapper.css'
+import '../css/animation.css'
 
 const ExperienceBlock = ({emoji, firm, title, description, year}) => {
 
     return (
         <div className="experience">
-             <div className="wrapper">
+             <div className="wrapper fade-in-down-animation">
                 <header>{year}</header>
                 <div className="w-content">
                     <div>
