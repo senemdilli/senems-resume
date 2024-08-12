@@ -35,8 +35,12 @@
   text-align: left;
 }
 
+.gap {
+  display: flex;
+  gap: 1rem;
+}
+
 .w-firm {
-  padding: 30px;
   font-weight: 600;
   text-align: left;
 }
@@ -54,19 +58,6 @@
   font-size: 0.85rem;
   font-style: italic;
   text-align: left;
-}
-  
-.w-emoji {
-  vertical-align: middle;
-  justify-content: center;
-  background-color: rgb(243 244 246/var(--tw-bg-opacity));
-  border-radius: 9999px;
-  align-items: center;
-  flex-shrink: 0;
-  width: 2.5rem;
-  height: 2.5rem;
-  display: flex;
-  z-index: 0;
 }
 
 .text-slate-500 {

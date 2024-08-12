@@ -11,8 +11,8 @@ const ExperienceBlock = ({emoji, firm, title, description, year}) => {
                     <div>
                         <h3 className="w-title">
                             <div>
-                                <a>
-                                {title}
+                                <a className='gap'>
+                                <span>{title}</span>
                                 <span className="w-firm">{firm}</span>
                                 </a>
                             </div>

@@ -7,7 +7,7 @@ const Page1 = () => {
     ];
 
     return (
-        <div className="experience-wrapper">
+        <div>
             {componentsData.map((data, index) => (
                 <ExperienceBlock key={index} {...data} />
             ))}
